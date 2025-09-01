@@ -5,6 +5,9 @@ import importPlugin from "eslint-plugin-import";
 import prettier from "eslint-config-prettier";
 
 export default [
+  // Ignore esbuild outputs
+  { ignores: ["app/assets/builds/**"] },
+
   js.configs.recommended,
   importPlugin.flatConfigs.recommended,
   {
