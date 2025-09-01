@@ -23,6 +23,7 @@
   "type": "module",
   "devDependencies": {
     "@eslint/js": "^9.34.0",
+    "esbuild": "^0.25.9",
     "eslint": "^9.34.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-node": "^0.3.9",
